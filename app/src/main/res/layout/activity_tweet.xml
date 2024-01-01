@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content"
+    tools:context=".TweetActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#96EFFF"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Got Some New Ideas,Share It with the World !!"
+            android:textStyle="bold"
+            android:textColor="#1DA1F2">
+
+        </TextView>
+        <EditText
+            android:id="@+id/edt_tweet_box"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:hint="Enter Tweet">
+        </EditText>
+        <Button
+            android:id="@+id/btn_tweet_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1DA1F2"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Upload Tweet">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
